@@ -1,0 +1,41 @@
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin-left:50px;
+    margin-right: 50px;
+    
+}
+.nav{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 150px;
+    width: 200px;
+}
+.table,th,td{
+    border: 1px solid black;
+    text-align: left;
+}
+.table{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+.table-head, th{
+    background: rgb(73, 151, 175);
+    text-decoration: underline;
+    padding: 5px;
+}
+.text-bold{
+    font-weight: bold;
+    margin: 10px 0;
+}
+p{
+    letter-spacing: 1px;
+}
